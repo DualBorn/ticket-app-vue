@@ -1,0 +1,34 @@
+{
+  "name": "ticketapp-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.2.5",
+    "vue-toastification": "^2.0.0-rc.5",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.36.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  }
+}
+
